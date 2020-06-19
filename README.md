@@ -1,5 +1,5 @@
 # Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks
-This repository includes source code to generate numeric results for the arXiv paper *Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks*.
+This repository includes source code to generate numeric results for the arXiv paper [*Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks*](https://arxiv.org/abs/2006.10581).
 
 # Installation
 To download the repository and its submodules and install all necessary dependencies, create a new virtual environment and run
