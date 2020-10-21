@@ -1,6 +1,6 @@
 import tensorflow as tf
 from data import create_dataset, get_dataset_from_csv, mix_datasets, shuffle_data
-from utils import evaluate, save_model_and_config, load_config, build_model, get_sigma, transfer_distance
+from utils import evaluate, save_model_and_config, load_config, build_model, get_sigma, model_transfer_distance
 from args import Args
 import numpy as np
 
@@ -154,7 +154,7 @@ def train_model(args):
                  'distance': None}
 
     if args.load_layer:
-        distance = transfer_distance(src_model, model, sigma_T, source_config.use_bias)
+        distance = model_transfer_distance(src_model, model, sigma_T, source_config.use_bias)
         print('Final model distance: ', distance)
         save_dict['distance'] = distance
 

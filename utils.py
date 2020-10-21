@@ -70,8 +70,7 @@ def transfer_distance(W_S, W_T, sigma):
 def get_sigma(x, use_bias):
     if use_bias:
         x = np.concatenate((x, np.ones((x.shape[0], 1))), axis=1)
-    n, _ = x.shape
-    sigma = 1 / n * np.matmul(np.transpose(x), x)
+    sigma = np.cov(x, rowvar=False)
     return sigma
 
 
