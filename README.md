@@ -1,10 +1,10 @@
 # Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks
-This repository accompanies the paper *Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks*.
-
 arXiv version: https://arxiv.org/abs/2006.10581
 
 NeurIPS 2020 paper: coming soon
-![lowerbounds](picture_neurips.png)
+![lowerbounds](assets/picture_neurips.png)
+![montage](assets/montage.png)
+
 # Installation
 To download the repository and its submodules and install all necessary dependencies, create a new virtual environment and run
 ````
