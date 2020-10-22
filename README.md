@@ -4,7 +4,7 @@ This repository accompanies the paper *Minimax Lower Bounds for Transfer Learnin
 arXiv version: https://arxiv.org/abs/2006.10581
 
 NeurIPS 2020 paper: coming soon
-
+![lowerbounds](picture_neurips.png)
 # Installation
 To download the repository and its submodules and install all necessary dependencies, create a new virtual environment and run
 ````
