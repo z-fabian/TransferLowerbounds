@@ -26,3 +26,5 @@ Alternatively, the exact datasets used in the paper can be downloaded from this 
 To reproduce the results as seen in Table 1 and Figure 1 in the paper we recommend downloading the datasets from the provided link. If you choose to use the downloader tool to create the datasets, small variations in numerical values is possible depending on the availability of ImageNet URLs.
 
 After the dependencies have been installed and the datasets downloaded, please run `numerical_results.ipynb` to obtain the results from the paper.
+
+Numerical experiments on synthetic data can be found in the [synthetic-results](synthetic-results) folder. Experiments on DomainNet are located in the [DomainNet](DomainNet) folder.
