@@ -1,7 +1,17 @@
 # Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks
+
+NeurIPS 2020 paper is available [here](https://proceedings.neurips.cc/paper/2020/hash/151d21647527d1079781ba6ae6571ffd-Abstract.html).
+```BibTeX
+@article{mousavi2020minimax,
+  title={Minimax Lower Bounds for Transfer Learning with Linear and One-hidden Layer Neural Networks},
+  author={Mousavi Kalan, Mohammadreza and Fabian, Zalan and Avestimehr, Salman and Soltanolkotabi, Mahdi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
+```
 arXiv version: https://arxiv.org/abs/2006.10581
 
-NeurIPS 2020 paper: coming soon
 ![lowerbounds](assets/picture_neurips.png)
 ![montage](assets/montage.png)
 
